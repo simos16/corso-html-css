@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo elementi</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <style>
+        #par1::first-line {
+            color: #fff;
+            background-color: #7e23d2;
+        }
+        #par2::first-letter{
+           font-size: 32px;
+        }
+        #par3::after{
+            content:'AFTER';
+            font-size: 32px;
+            color: #f00;
+            margin-left: 10px;
+        }
+        #par4::before{
+            content:'BEFORE';
+            font-size: 32px;
+            color: #00f;
+            margin-right: 10px;
+        }
+
+        #par3::before{
+            font-family: 'Material Icons';
+            content: '\e87d';
+            color: #f00;
+            font-size: 40px
+        }
+        #par4::after{
+            font-family: 'Material Icons';
+            content: '\e88a';
+            color: #00f;
+            font-size: 40px;
+        }
+
+        #par5::after{
+            content: url(https://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/32/red-home-icon.png);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <p id="par1">Variety black dark irish sit café viennese ristretto a crema half. Mazagran mug aroma dripper grounds instant white medium shop. Pot roast ut aftertaste mug acerbic sit seasonal black fair. Dripper rich foam dark robust mazagran shop percolator. Roast aroma caffeine grounds medium pumpkin at luwak.</p>
+    <p id="par2">Trade decaffeinated au aromatic filter half carajillo caffeine arabica aroma mountain white robust.
+
+        Frappuccino wings aftertaste mazagran foam at filter doppio eu doppio lungo filter sit.
+
+        Luwak iced lait acerbic eu so breve redeye id aroma cream au lait.
+
+        Saucer espresso spoon aroma redeye sweet in irish cream strong that.</p>
+
+<p id="par3">Luwak whipped robusta turkish affogato dripper chicory instant affogato fair eu roast.</p>
+<p id="par4">Au plunger latte caffeine pot lungo instant cinnamon eu organic cultivar that coffee.</p>
+    <p id="par5">Au plunger latte caffeine pot lungo instant cinnamon eu organic cultivar that coffee.</p>
+</body>
+</html>

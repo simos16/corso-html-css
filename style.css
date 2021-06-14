@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+
+p{
+    color: green;
+    font-size: 45px;
+}
+div{
+    float: left;
+    background-color: orange;
+    width: 350px;
+    height: 350px;
+    /*border: 2px solid blue;*/
+    border-radius: 20px;
+    border-top: 2px solid blue;
+    border-right: 2px solid red;
+    border-bottom: 2px dotted orangered;
+    border-left: 2px dashed green;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

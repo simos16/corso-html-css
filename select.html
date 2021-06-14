@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Elementi del form: select</title>
+    <style>
+        input{
+            margin-bottom: 10px;
+        }
+h3{
+    color: blue;
+}
+
+button{
+    background-color: coral;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 0px;
+    font-size: 25px;
+}
+    </style>
+</head>
+<body>
+<div>
+    <h1>Select</h1>
+<form>
+    <h3>Scegli i tuoi animali preferiti - Scelta singola</h3>
+    <select id="animali" name="animali">
+        <option value="gatto">Gatto</option>
+        <option value="cane">Cane</option>
+        <option value="criceto">Criceto</option>
+        <option value="coniglio">Coniglio</option>
+    </select>
+    <hr>
+    <h3>Scegli i tuoi animali preferiti - Scelta multipla</h3>
+    <select id="animali" name="animali" size="4" multiple>
+        <option value="gatto">Gatto</option>
+        <option value="cane">Cane</option>
+        <option value="criceto">Criceto</option>
+        <option value="coniglio">Coniglio</option>
+    </select><br>
+    <button type="submit">Invia</button>
+</form>
+
+</div>
+
+</body>
+</html>
