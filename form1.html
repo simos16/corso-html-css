@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Form - Prima parte</title>
+    <style>
+input{
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+<div>
+    <h1>Form di contatto</h1>
+<form>
+    <label for="nome">Inserisci il tuo nome</label><br>
+    <input type="text" id="nome" required><br>
+    <label for="cognome">Inserisci il tuo cognome</label><br>
+    <input type="text" id="cognome"><br>
+    <label for="mail">Inserisci una mail valida</label><br>
+    <input type="mail" id="mail" required><br>
+    <label for="oggetto">Inserisci un oggetto</label><br>
+    <input type="text" id="oggetto"><br>
+    <label for="messaggio">Inserisci il tuo messaggio</label><br>
+    <textarea id="messaggio" cols="30" rows="3">Qui puoi inserire un testo molto esteso...</textarea><br>
+    <input type="submit" value="Invia">
+</form>
+
+</div>
+
+</body>
+</html>

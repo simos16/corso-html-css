@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Display</title>
+        <style>
+li{
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-right: 2px solid #d28c23;
+    padding-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #7e23d2;
+    font-size: 36px;
+}
+
+a:hover{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+ul{
+    background-color: rgba(0,0,0,0.3);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+
+ul li{
+    display: inline;
+}
+#nascosto{
+    display: none;
+}
+
+#box:hover #nascosto{
+    display: block;
+}
+        </style>
+    </head>
+    <body>
+       <h1>La proprietà display</h1>
+
+<ul>
+    <a href="#"><li>Link 1</li></a>
+    <a href="#"><li>Link 2</li></a>
+    <a href="#"><li>Link 3</li></a>
+    <a href="#"><li>Link 4</li></a>
+</ul>
+       <div id="box">
+            <p id="non-nascosto">Passa qui il mouse</p>
+            <p id="nascosto">Paragrafo nascosto</p>
+       </div>
+    </body>
+</html>
