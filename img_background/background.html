@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Immagini in background</title>
+    <style>
+        div{
+            margin-bottom: 20px;
+            border: 3px solid orangered;
+        }
+        #box1{
+            width: 350px;
+            height: 350px;
+            background-image: url("./immagini/immagine1.jpg");
+        }
+        #box2{
+            width: 200px;
+            height: 350px;
+            background-image: url("./immagini/immagine2.jpg");
+        }
+        #box3{
+            width: 300px;
+            height: 200px;
+            background-image: url("./immagini/immagine3.jpg");
+        }
+
+        #box4{
+            width: 800px;
+            height: 500px;
+            /*background-image: url("./immagini/immagine3.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;*/
+
+            background: url("./immagini/immagine3.jpg") no-repeat center;
+            background-size: cover;
+        }
+
+        #texture{
+            width: 200px;
+            height: 350px;
+            background-image: url("./immagini/texture.png");
+        }
+
+    </style>
+</head>
+<body>
+<div id="box1">Immagine 1</div>
+<div id="box2">Immagine 2</div>
+<div id="box3">Immagine 3</div>
+<div id="box4">Immagine 4</div>
+<div id="texture">Tessitura</div>
+
+</body>
+</html>
