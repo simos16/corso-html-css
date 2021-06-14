@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proprietà CSS position</title>
+    <style>
+        body{
+            position:relative;
+        }
+        .contenitore{
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 2px solid orangered;
+        }
+        #verde{
+            background-color: chartreuse;
+            position: absolute;
+            top: 70px;
+            left: 120px;
+            z-index: 1;
+        }
+        #blu{
+            background-color: blue;
+            position: absolute;
+            top: 100px;
+            left: 150px;
+        }
+        #nero{
+            background-color: black;
+            position: absolute;
+            top: 130px;
+            left: 180px;
+            z-index: 0;
+        }
+
+        .box-interno{
+            position: relative;
+            top: 300px;
+            left: 500px;
+            width: 400px;
+            height: 400px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+<div class="contenitore" id="verde">Box 1</div>
+<div class="box-interno">Box intermedio
+<div class="contenitore" id="blu">Box 2</div>
+</div>
+<div class="contenitore" id="nero">Box 3</div>
+</body>
+</html>
